@@ -55,18 +55,36 @@ namespace RisaAtelier.MultipurposeLib.DataTable
 
         }
 
+        /// <summary>
+        /// 左側に来るDataTable
+        /// </summary>
         [RequiredArgument]
         public InArgument<System.Data.DataTable> LeftTable { get; set; }
 
+        /// <summary>
+        /// 右側に来るDataTable
+        /// </summary>
         [RequiredArgument]
         public InArgument<System.Data.DataTable> RightTable { get; set; }
 
+        /// <summary>
+        /// 左側DataTableのソート条件
+        /// </summary>
         public InArgument<String> LeftSort { get; set; }
 
+        /// <summary>
+        /// 右側DataTableのソート条件
+        /// </summary>
         public InArgument<String> RightSort { get; set; }
 
+        /// <summary>
+        /// レコード数の確認
+        /// </summary>
         public InArgument<Boolean> CheckRecordsCount { get; set; } = true;
 
+        /// <summary>
+        /// 出力DataTable
+        /// </summary>
         public OutArgument<System.Data.DataTable> Result { get; set; }
 
         protected override void Execute(CodeActivityContext context)

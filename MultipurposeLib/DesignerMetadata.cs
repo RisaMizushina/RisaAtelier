@@ -13,6 +13,9 @@ namespace RisaAtelier.MultipurposeLib
     /// </summary>
     public class DesignerMetadata : IRegisterMetadata
     {
+        /// <summary>
+        /// IRegisterMetadata.Registerの、実装です
+        /// </summary>
         public void Register()
         {
             var builder = new AttributeTableBuilder();

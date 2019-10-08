@@ -8,6 +8,11 @@ namespace RisaAtelier.MultipurposeLib
     /// </summary>
     internal static class COMUtil
     {
+        /// <summary>
+        /// COM相互運用の、Unmanaged Resourceを、解放します
+        /// </summary>
+        /// <param name="target"></param>
+        /// <param name="isFinal"></param>
         internal static void COMRelease(ref object target, bool isFinal)
         {
             try
@@ -51,6 +56,12 @@ namespace RisaAtelier.MultipurposeLib
             target.GetType().InvokeMember(nameOf, System.Reflection.BindingFlags.SetProperty, null, target, value);
         }
 
+        /// <summary>
+        /// COMオブジェクトの、プロパティを取得します
+        /// </summary>
+        /// <param name="target"></param>
+        /// <param name="nameOf"></param>
+        /// <returns></returns>
         internal static object InvokeGetProperty(ref object target, string nameOf)
         {
             return target.GetType().InvokeMember(nameOf, System.Reflection.BindingFlags.GetProperty, null, target, null);

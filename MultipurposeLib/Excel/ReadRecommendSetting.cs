@@ -41,12 +41,21 @@ namespace RisaAtelier.MultipurposeLib.Excel
                                                 , Properties.Resources.Excel_RRS_InArgDesc3);
         }
 
+        /// <summary>
+        /// 「読み取り専用を推奨」の設定値
+        /// </summary>
         [RequiredArgument()]
         public InArgument<bool> SetReadOnlyRecommended { get; set; } = false;
 
+        /// <summary>
+        /// Excelファイル
+        /// </summary>
         [RequiredArgument()]
         public InArgument<string> TargetExcelFile { get; set; }
 
+        /// <summary>
+        /// Excelファイルのパスワード
+        /// </summary>
         public InArgument<string> ExcelBookPassword { get; set; }
 
         protected override void Execute(CodeActivityContext context)

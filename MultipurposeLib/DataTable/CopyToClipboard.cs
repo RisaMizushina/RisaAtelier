@@ -44,18 +44,33 @@ namespace RisaAtelier.MultipurposeLib.DataTable
                                                 , Properties.Resources.DataTable_CTC_InArgDesc4);
         }
 
+        /// <summary>
+        /// 区切り文字の設定
+        /// </summary>
         public enum SeparateType
         {
             COMMA, TAB
         }
 
+        /// <summary>
+        /// 処理対象のDataTable
+        /// </summary>
         [RequiredArgument]
         public InArgument<System.Data.DataTable> Source { get; set; }
 
+        /// <summary>
+        /// 文字列型の置換フォーマット
+        /// </summary>
         public InArgument<String> DateTimeFormat { get; set; } = "yyyy/MM/dd HH:mm:ss";
 
+        /// <summary>
+        /// エスケープ処理の有無
+        /// </summary>
         public InArgument<Boolean> Escape { get; set; } = true;
 
+        /// <summary>
+        /// 区切り文字
+        /// </summary>
         public SeparateType Separator { get; set; } = SeparateType.COMMA;
 
         protected override void Execute(CodeActivityContext context)

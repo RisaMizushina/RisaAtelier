@@ -42,12 +42,24 @@ namespace RisaAtelier.MultipurposeLib.File
                                                 , Properties.Resources.File_WFFGC_OutArgDesc1);
         }
 
+        /// <summary>
+        /// 処理対象の、ファイル名
+        /// </summary>
         public InArgument<String> FileName { get; set; }
 
+        /// <summary>
+        /// インターバル周期
+        /// </summary>
         public InArgument<Int32> IntervalMS { get; set; } = 2000;
 
+        /// <summary>
+        /// タイムアウトまでの秒数
+        /// </summary>
         public InArgument<Int32> TimeOutSeconds { get; set; }
 
+        /// <summary>
+        /// 最終的なファイルサイズ
+        /// </summary>
         public OutArgument<long> FinalFileSize { get; set; }
 
         protected override void Execute(CodeActivityContext context)
