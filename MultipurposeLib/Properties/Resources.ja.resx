@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActivityDesc_DataTable_CopyToClipboard" xml:space="preserve">
+    <value>DataTable型変数の、中身を、CSV / TSV形式で、クリップボードにコピーします</value>
+  </data>
+  <data name="ActivityDesc_DataTable_JointTable" xml:space="preserve">
+    <value>2つのDataTableを、横方向に結合します</value>
+  </data>
+  <data name="ActivityDesc_DataTable_SwapRowsAndColumns" xml:space="preserve">
+    <value>DataTableの、行と列を、入れ替えます</value>
+  </data>
+  <data name="ActivityDesc_Excel_ReadReccomendSetting" xml:space="preserve">
+    <value>Excelファイルの、「読み取り専用を推奨」プロパティを、変更します</value>
+  </data>
+  <data name="ActivityDesc_File_WaitForFileGrowthCompleted" xml:space="preserve">
+    <value>ファイルを監視し、サイズが変化しなくなるまで待機します</value>
+  </data>
+  <data name="ActivityName_DataTable_CopyToClipboard" xml:space="preserve">
+    <value>クリップボードに中身をコピー</value>
+  </data>
+  <data name="ActivityName_DataTable_JointTable" xml:space="preserve">
+    <value>DataTableの横結合</value>
+  </data>
+  <data name="ActivityName_DataTable_SwapRowsAndColumns" xml:space="preserve">
+    <value>行と列の入れ替え</value>
+  </data>
+  <data name="ActivityName_Excel_ReadReccomendSetting" xml:space="preserve">
+    <value>「読み取り専用を推奨」の設定</value>
+  </data>
+  <data name="ActivityName_File_WaitForFileGrowthCompleted" xml:space="preserve">
+    <value>ファイル書き込み終了まで待機</value>
+  </data>
+  <data name="ActivityTree_DataTable_CopyToClipboard" xml:space="preserve">
+    <value>Risa Atelier.DataTable</value>
+  </data>
+  <data name="ActivityTree_DataTable_JointTable" xml:space="preserve">
+    <value>Risa Atelier.DataTable</value>
+  </data>
+  <data name="ActivityTree_DataTable_SwapRowsAndColumns" xml:space="preserve">
+    <value>Risa Atelier.DataTable</value>
+  </data>
+  <data name="ActivityTree_Excel_ReadRecommendSetting" xml:space="preserve">
+    <value>Risa Atelier.Excel</value>
+  </data>
+  <data name="ActivityTree_File_WaitForFileGrowthCompleted" xml:space="preserve">
+    <value>Risa Atelier.File</value>
+  </data>
+  <data name="DataTable_CTC_InArgCategory1" xml:space="preserve">
+    <value>入力</value>
+  </data>
+  <data name="DataTable_CTC_InArgCategory2" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="DataTable_CTC_InArgCategory3" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="DataTable_CTC_InArgCategory4" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="DataTable_CTC_InArgDesc1" xml:space="preserve">
+    <value>入力するDataTable</value>
+  </data>
+  <data name="DataTable_CTC_InArgDesc2" xml:space="preserve">
+    <value>DateTime型フィールドの、文字列への、変換フォーマット</value>
+  </data>
+  <data name="DataTable_CTC_InArgDesc3" xml:space="preserve">
+    <value>特殊文字（改行など）を、エスケープします</value>
+  </data>
+  <data name="DataTable_CTC_InArgDesc4" xml:space="preserve">
+    <value>区切り文字</value>
+  </data>
+  <data name="DataTable_CTC_InArgName1" xml:space="preserve">
+    <value>入力DateTime</value>
+  </data>
+  <data name="DataTable_CTC_InArgName2" xml:space="preserve">
+    <value>日付型フォーマット</value>
+  </data>
+  <data name="DataTable_CTC_InArgName3" xml:space="preserve">
+    <value>エスケープ処理</value>
+  </data>
+  <data name="DataTable_CTC_InArgName4" xml:space="preserve">
+    <value>区切り文字</value>
+  </data>
+  <data name="DataTable_JT_InArgCategory1" xml:space="preserve">
+    <value>入力(左側)</value>
+  </data>
+  <data name="DataTable_JT_InArgCategory2" xml:space="preserve">
+    <value>入力(右側)</value>
+  </data>
+  <data name="DataTable_JT_InArgCategory3" xml:space="preserve">
+    <value>入力(左側)</value>
+  </data>
+  <data name="DataTable_JT_InArgCategory4" xml:space="preserve">
+    <value>入力(右側)</value>
+  </data>
+  <data name="DataTable_JT_InArgCategory5" xml:space="preserve">
+    <value>検証</value>
+  </data>
+  <data name="DataTable_JT_InArgDesc1" xml:space="preserve">
+    <value>左側に設定される、DataTableです</value>
+  </data>
+  <data name="DataTable_JT_InArgDesc2" xml:space="preserve">
+    <value>右側に設定される、DataTableです</value>
+  </data>
+  <data name="DataTable_JT_InArgDesc3" xml:space="preserve">
+    <value>DataTableの、ソート条件を、設定します</value>
+  </data>
+  <data name="DataTable_JT_InArgDesc4" xml:space="preserve">
+    <value>DataTableの、ソート条件を、設定します</value>
+  </data>
+  <data name="DataTable_JT_InArgDesc5" xml:space="preserve">
+    <value>右側と左側の、レコード数を確認し、一致しない場合に、ArgumentExceptionを発生させます</value>
+  </data>
+  <data name="DataTable_JT_InArgName1" xml:space="preserve">
+    <value>DataTable (左側)</value>
+  </data>
+  <data name="DataTable_JT_InArgName2" xml:space="preserve">
+    <value>DataTable (右側)</value>
+  </data>
+  <data name="DataTable_JT_InArgName3" xml:space="preserve">
+    <value>ソート条件 (左側)</value>
+  </data>
+  <data name="DataTable_JT_InArgName4" xml:space="preserve">
+    <value>ソート条件 (右側)</value>
+  </data>
+  <data name="DataTable_JT_InArgName5" xml:space="preserve">
+    <value>レコード数の一致を確認</value>
+  </data>
+  <data name="DataTable_JT_OutArgCategory1" xml:space="preserve">
+    <value>出力</value>
+  </data>
+  <data name="DataTable_JT_OutArgDesc1" xml:space="preserve">
+    <value>結合されたDataTableです</value>
+  </data>
+  <data name="DataTable_JT_OutArgName1" xml:space="preserve">
+    <value>結合結果</value>
+  </data>
+  <data name="DataTable_SRAC_InArgCategory1" xml:space="preserve">
+    <value>入力</value>
+  </data>
+  <data name="DataTable_SRAC_InArgDesc1" xml:space="preserve">
+    <value>変換元のDataTable</value>
+  </data>
+  <data name="DataTable_SRAC_InArgName1" xml:space="preserve">
+    <value>ソース</value>
+  </data>
+  <data name="DataTable_SRAC_OutArgCategory1" xml:space="preserve">
+    <value>出力</value>
+  </data>
+  <data name="DataTable_SRAC_OutArgDesc1" xml:space="preserve">
+    <value>行と列を入れ替えたDataTable</value>
+  </data>
+  <data name="DataTable_SRAC_OutArgName1" xml:space="preserve">
+    <value>変換結果</value>
+  </data>
+  <data name="Excel_RRS_InArgCategory1" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Excel_RRS_InArgCategory2" xml:space="preserve">
+    <value>入力</value>
+  </data>
+  <data name="Excel_RRS_InArgCategory3" xml:space="preserve">
+    <value>入力</value>
+  </data>
+  <data name="Excel_RRS_InArgDesc1" xml:space="preserve">
+    <value>この値をTrueにすると、「読み取り専用で開きますか？」の、ダイアログが出ます</value>
+  </data>
+  <data name="Excel_RRS_InArgDesc2" xml:space="preserve">
+    <value>Excelファイル名を、指定してください</value>
+  </data>
+  <data name="Excel_RRS_InArgDesc3" xml:space="preserve">
+    <value>Excel書き込み用パスワードです \n 【注意】読み取りと、書き込みのパスワードが、個別に設定されているファイルは、正しく動作しません</value>
+  </data>
+  <data name="Excel_RRS_InArgName1" xml:space="preserve">
+    <value>「読み取り専用を推奨」の設定値</value>
+  </data>
+  <data name="Excel_RRS_InArgName2" xml:space="preserve">
+    <value>ファイル名</value>
+  </data>
+  <data name="Excel_RRS_InArgName3" xml:space="preserve">
+    <value>書き込み用パスワード</value>
+  </data>
+  <data name="Exception_Records_Count_Invalid" xml:space="preserve">
+    <value>入力レコードの数が異なります</value>
+  </data>
+  <data name="File_WFFGC_InArgCategory1" xml:space="preserve">
+    <value>入力</value>
+  </data>
+  <data name="File_WFFGC_InArgCategory2" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="File_WFFGC_InArgCategory3" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="File_WFFGC_InArgDesc1" xml:space="preserve">
+    <value>監視対象になるファイル名です</value>
+  </data>
+  <data name="File_WFFGC_InArgDesc2" xml:space="preserve">
+    <value>監視間隔です。長くするほど、確実になりますが、余分に時間がかかります。</value>
+  </data>
+  <data name="File_WFFGC_InArgDesc3" xml:space="preserve">
+    <value>セットした秒数を超えると、例外を発生させます。0または負の値では、無制限になります。</value>
+  </data>
+  <data name="File_WFFGC_InArgName1" xml:space="preserve">
+    <value>監視するファイル名</value>
+  </data>
+  <data name="File_WFFGC_InArgName2" xml:space="preserve">
+    <value>監視間隔(ミリ秒)</value>
+  </data>
+  <data name="File_WFFGC_InArgName3" xml:space="preserve">
+    <value>タイムアウト(秒)</value>
+  </data>
+  <data name="File_WFFGC_OutArgCategory1" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="File_WFFGC_OutArgDesc1" xml:space="preserve">
+    <value>最終的に、書き出されたファイルサイズです。</value>
+  </data>
+  <data name="File_WFFGC_OutArgName1" xml:space="preserve">
+    <value>最終ファイルサイズ</value>
+  </data>
+</root>

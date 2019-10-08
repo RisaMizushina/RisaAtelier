@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActivityDesc_DataTable_CopyToClipboard" xml:space="preserve">
+    <value>Copies DataTable contents to Clipboard</value>
+  </data>
+  <data name="ActivityDesc_DataTable_JointTable" xml:space="preserve">
+    <value>Joint DataTable Laterally</value>
+  </data>
+  <data name="ActivityDesc_DataTable_SwapRowsAndColumns" xml:space="preserve">
+    <value>Rebuild DataTable with swapping Rows And Columns</value>
+  </data>
+  <data name="ActivityDesc_Excel_ReadReccomendSetting" xml:space="preserve">
+    <value>Set / Disable "Recommend Read Only" Status to Excel file.</value>
+  </data>
+  <data name="ActivityDesc_File_WaitForFileGrowthCompleted" xml:space="preserve">
+    <value>Waiting file writing complete, like downloading file.</value>
+  </data>
+  <data name="ActivityName_DataTable_CopyToClipboard" xml:space="preserve">
+    <value>Copy To Clipboard</value>
+  </data>
+  <data name="ActivityName_DataTable_JointTable" xml:space="preserve">
+    <value>Joint DataTable</value>
+  </data>
+  <data name="ActivityName_DataTable_SwapRowsAndColumns" xml:space="preserve">
+    <value>Swap Rows And Columns</value>
+  </data>
+  <data name="ActivityName_Excel_ReadReccomendSetting" xml:space="preserve">
+    <value>Read Reccomend Setting</value>
+  </data>
+  <data name="ActivityName_File_WaitForFileGrowthCompleted" xml:space="preserve">
+    <value>Wait For Writing File Complete</value>
+  </data>
+  <data name="ActivityTree_DataTable_CopyToClipboard" xml:space="preserve">
+    <value>Risa Atelier.DataTable</value>
+  </data>
+  <data name="ActivityTree_DataTable_JointTable" xml:space="preserve">
+    <value>Risa Atelier.DataTable</value>
+  </data>
+  <data name="ActivityTree_DataTable_SwapRowsAndColumns" xml:space="preserve">
+    <value>Risa Atelier.DataTable</value>
+  </data>
+  <data name="ActivityTree_Excel_ReadRecommendSetting" xml:space="preserve">
+    <value>Risa Atelier.Excel</value>
+  </data>
+  <data name="ActivityTree_File_WaitForFileGrowthCompleted" xml:space="preserve">
+    <value>Risa Atelier.File</value>
+  </data>
+  <data name="DataTable_CTC_InArgCategory1" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="DataTable_CTC_InArgCategory2" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="DataTable_CTC_InArgCategory3" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="DataTable_CTC_InArgCategory4" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="DataTable_CTC_InArgDesc1" xml:space="preserve">
+    <value>Input DataTable</value>
+  </data>
+  <data name="DataTable_CTC_InArgDesc2" xml:space="preserve">
+    <value>Format of DateTime type field</value>
+  </data>
+  <data name="DataTable_CTC_InArgDesc3" xml:space="preserve">
+    <value>Escape Special chars (NewLine, Double Quotation, etc)</value>
+  </data>
+  <data name="DataTable_CTC_InArgDesc4" xml:space="preserve">
+    <value>Sepalater</value>
+  </data>
+  <data name="DataTable_CTC_InArgName1" xml:space="preserve">
+    <value>Input DataTable</value>
+  </data>
+  <data name="DataTable_CTC_InArgName2" xml:space="preserve">
+    <value>DateTime Type Comvert Format</value>
+  </data>
+  <data name="DataTable_CTC_InArgName3" xml:space="preserve">
+    <value>Escape Special chars</value>
+  </data>
+  <data name="DataTable_CTC_InArgName4" xml:space="preserve">
+    <value>Separater</value>
+  </data>
+  <data name="DataTable_JT_InArgCategory1" xml:space="preserve">
+    <value>Input (Left)</value>
+  </data>
+  <data name="DataTable_JT_InArgCategory2" xml:space="preserve">
+    <value>Input (Right)</value>
+  </data>
+  <data name="DataTable_JT_InArgCategory3" xml:space="preserve">
+    <value>Input (Left)</value>
+  </data>
+  <data name="DataTable_JT_InArgCategory4" xml:space="preserve">
+    <value>Input (Right)</value>
+  </data>
+  <data name="DataTable_JT_InArgCategory5" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="DataTable_JT_InArgDesc1" xml:space="preserve">
+    <value>Source DataTable (Left Side)</value>
+  </data>
+  <data name="DataTable_JT_InArgDesc2" xml:space="preserve">
+    <value>Source DataTable (Right Side)</value>
+  </data>
+  <data name="DataTable_JT_InArgDesc3" xml:space="preserve">
+    <value>Sort Condition of DataTable (Left Side)</value>
+  </data>
+  <data name="DataTable_JT_InArgDesc4" xml:space="preserve">
+    <value>Sort Condition of DataTable (Right Side)</value>
+  </data>
+  <data name="DataTable_JT_InArgDesc5" xml:space="preserve">
+    <value>Check Records Counts are Same.</value>
+  </data>
+  <data name="DataTable_JT_InArgName1" xml:space="preserve">
+    <value>DataTable (Left)</value>
+  </data>
+  <data name="DataTable_JT_InArgName2" xml:space="preserve">
+    <value>DataTable (Right)</value>
+  </data>
+  <data name="DataTable_JT_InArgName3" xml:space="preserve">
+    <value>Soft Condition (Left)</value>
+  </data>
+  <data name="DataTable_JT_InArgName4" xml:space="preserve">
+    <value>Sort Condition (Right)</value>
+  </data>
+  <data name="DataTable_JT_InArgName5" xml:space="preserve">
+    <value>Check Records Counts are Same.</value>
+  </data>
+  <data name="DataTable_JT_OutArgCategory1" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="DataTable_JT_OutArgDesc1" xml:space="preserve">
+    <value>Marged DataTable.</value>
+  </data>
+  <data name="DataTable_JT_OutArgName1" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="DataTable_SRAC_InArgCategory1" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="DataTable_SRAC_InArgDesc1" xml:space="preserve">
+    <value>Source DataTable</value>
+  </data>
+  <data name="DataTable_SRAC_InArgName1" xml:space="preserve">
+    <value>Source DataTable</value>
+  </data>
+  <data name="DataTable_SRAC_OutArgCategory1" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="DataTable_SRAC_OutArgDesc1" xml:space="preserve">
+    <value>Output DataTable</value>
+  </data>
+  <data name="DataTable_SRAC_OutArgName1" xml:space="preserve">
+    <value>Output DataTable</value>
+  </data>
+  <data name="Excel_RRS_InArgCategory1" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="Excel_RRS_InArgCategory2" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="Excel_RRS_InArgCategory3" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="Excel_RRS_InArgDesc1" xml:space="preserve">
+    <value>If this value set True, Excel application may show "Read Only" reccomnedation dialog.</value>
+  </data>
+  <data name="Excel_RRS_InArgDesc2" xml:space="preserve">
+    <value>Set Excel Filename</value>
+  </data>
+  <data name="Excel_RRS_InArgDesc3" xml:space="preserve">
+    <value>(Optional) Set Excel Reading Password \n [CAUTION] Workbook with Read Only Password is not available yet.</value>
+  </data>
+  <data name="Excel_RRS_InArgName1" xml:space="preserve">
+    <value>Recommend Read Only Setting</value>
+  </data>
+  <data name="Excel_RRS_InArgName2" xml:space="preserve">
+    <value>Excel Filename</value>
+  </data>
+  <data name="Excel_RRS_InArgName3" xml:space="preserve">
+    <value>Excel File Password</value>
+  </data>
+  <data name="Exception_Records_Count_Invalid" xml:space="preserve">
+    <value>Number of records are not same.</value>
+  </data>
+  <data name="File_WFFGC_InArgCategory1" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="File_WFFGC_InArgCategory2" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="File_WFFGC_InArgCategory3" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="File_WFFGC_InArgDesc1" xml:space="preserve">
+    <value>Target File Name</value>
+  </data>
+  <data name="File_WFFGC_InArgDesc2" xml:space="preserve">
+    <value>Interval of checking file size</value>
+  </data>
+  <data name="File_WFFGC_InArgDesc3" xml:space="preserve">
+    <value>Maximum time to wait (0 or less : unlimited)</value>
+  </data>
+  <data name="File_WFFGC_InArgName1" xml:space="preserve">
+    <value>Target Filename</value>
+  </data>
+  <data name="File_WFFGC_InArgName2" xml:space="preserve">
+    <value>Check Interval</value>
+  </data>
+  <data name="File_WFFGC_InArgName3" xml:space="preserve">
+    <value>Timeout (Seconds)</value>
+  </data>
+  <data name="File_WFFGC_OutArgCategory1" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="File_WFFGC_OutArgDesc1" xml:space="preserve">
+    <value>File Size at end. (Bytes)</value>
+  </data>
+  <data name="File_WFFGC_OutArgName1" xml:space="preserve">
+    <value>Completed File Size</value>
+  </data>
+</root>
