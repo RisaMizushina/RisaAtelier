@@ -38,7 +38,7 @@ namespace RisaAtelier.MultipurposeLib.DataTable
                                                 , Properties.Resources.DataTable_CTC_InArgCategory3
                                                 , Properties.Resources.DataTable_CTC_InArgDesc3);
 
-            DesignerMetadata.RegisterHelper(ref builder, t, nameof(CopyToClipboard.SeparateType)
+            DesignerMetadata.RegisterHelper(ref builder, t, nameof(CopyToClipboard.Separator)
                                                 , Properties.Resources.DataTable_CTC_InArgName4
                                                 , Properties.Resources.DataTable_CTC_InArgCategory4
                                                 , Properties.Resources.DataTable_CTC_InArgDesc4);
