@@ -187,7 +187,7 @@
     <value>区切り文字</value>
   </data>
   <data name="DataTable_CTC_InArgName1" xml:space="preserve">
-    <value>入力DateTime</value>
+    <value>入力DataTable</value>
   </data>
   <data name="DataTable_CTC_InArgName2" xml:space="preserve">
     <value>日付型フォーマット</value>
