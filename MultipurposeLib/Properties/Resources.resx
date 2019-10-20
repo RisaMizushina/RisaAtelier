@@ -142,7 +142,7 @@
     <value>Swap Rows And Columns</value>
   </data>
   <data name="ActivityName_Excel_ReadReccomendSetting" xml:space="preserve">
-    <value>Read Reccomend Setting</value>
+    <value>Read Recommend Setting</value>
   </data>
   <data name="ActivityName_File_WaitForFileGrowthCompleted" xml:space="preserve">
     <value>Wait For Writing File Complete</value>
@@ -196,7 +196,7 @@
     <value>Escape Special chars</value>
   </data>
   <data name="DataTable_CTC_InArgName4" xml:space="preserve">
-    <value>Separater</value>
+    <value>Separator</value>
   </data>
   <data name="DataTable_JT_InArgCategory1" xml:space="preserve">
     <value>Input (Left)</value>
@@ -235,7 +235,7 @@
     <value>DataTable (Right)</value>
   </data>
   <data name="DataTable_JT_InArgName3" xml:space="preserve">
-    <value>Soft Condition (Left)</value>
+    <value>Sort Condition (Left)</value>
   </data>
   <data name="DataTable_JT_InArgName4" xml:space="preserve">
     <value>Sort Condition (Right)</value>
@@ -247,7 +247,7 @@
     <value>Output</value>
   </data>
   <data name="DataTable_JT_OutArgDesc1" xml:space="preserve">
-    <value>Marged DataTable.</value>
+    <value>Merged DataTable.</value>
   </data>
   <data name="DataTable_JT_OutArgName1" xml:space="preserve">
     <value>Result</value>
@@ -280,7 +280,7 @@
     <value>Input</value>
   </data>
   <data name="Excel_RRS_InArgDesc1" xml:space="preserve">
-    <value>If this value set True, Excel application may show "Read Only" reccomnedation dialog.</value>
+    <value>If this value set True, Excel application may show "Read Only" recommendation dialog.</value>
   </data>
   <data name="Excel_RRS_InArgDesc2" xml:space="preserve">
     <value>Set Excel Filename</value>

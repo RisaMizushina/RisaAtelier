@@ -133,7 +133,7 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         }
         
         /// <summary>
-        ///   Read Reccomend Setting に類似しているローカライズされた文字列を検索します。
+        ///   Read Recommend Setting に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ActivityName_Excel_ReadReccomendSetting {
             get {
@@ -295,7 +295,7 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         }
         
         /// <summary>
-        ///   Separater に類似しているローカライズされた文字列を検索します。
+        ///   Separator に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string DataTable_CTC_InArgName4 {
             get {
@@ -412,7 +412,7 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         }
         
         /// <summary>
-        ///   Soft Condition (Left) に類似しているローカライズされた文字列を検索します。
+        ///   Sort Condition (Left) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string DataTable_JT_InArgName3 {
             get {
@@ -448,7 +448,7 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         }
         
         /// <summary>
-        ///   Marged DataTable. に類似しているローカライズされた文字列を検索します。
+        ///   Merged DataTable. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string DataTable_JT_OutArgDesc1 {
             get {
@@ -547,7 +547,7 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         }
         
         /// <summary>
-        ///   If this value set True, Excel application may show &quot;Read Only&quot; reccomnedation dialog. に類似しているローカライズされた文字列を検索します。
+        ///   If this value set True, Excel application may show &quot;Read Only&quot; recommendation dialog. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Excel_RRS_InArgDesc1 {
             get {

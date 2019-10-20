@@ -76,7 +76,7 @@ namespace RisaAtelier.MultipurposeLib.File
             {
                 lastFileSize = new FileInfo(fName).Length;
                 System.Threading.Thread.Sleep(IntervalMS.Get(context));
-                if (timeLimit.Ticks > DateTime.Now.Ticks) throw new TimeoutException();
+                if (timeLimit.Ticks < DateTime.Now.Ticks) throw new TimeoutException();
                 
             } while (lastFileSize != new FileInfo(fName).Length);
 
