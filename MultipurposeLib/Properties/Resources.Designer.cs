@@ -88,6 +88,15 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         }
         
         /// <summary>
+        ///   Gets Excel Active Worksheet&apos;s Name に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityDesc_Excel_GetActiveSheetName {
+            get {
+                return ResourceManager.GetString("ActivityDesc_Excel_GetActiveSheetName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Set / Disable &quot;Recommend Read Only&quot; Status to Excel file. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ActivityDesc_Excel_ReadReccomendSetting {
@@ -133,6 +142,15 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         }
         
         /// <summary>
+        ///   Get Active Sheet Name に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityName_Excel_GetActiveSheetName {
+            get {
+                return ResourceManager.GetString("ActivityName_Excel_GetActiveSheetName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Read Recommend Setting に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ActivityName_Excel_ReadReccomendSetting {
@@ -174,6 +192,15 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         public static string ActivityTree_DataTable_SwapRowsAndColumns {
             get {
                 return ResourceManager.GetString("ActivityTree_DataTable_SwapRowsAndColumns", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Risa Atelier.Excel に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityTree_Excel_GetActiveSheetName {
+            get {
+                return ResourceManager.GetString("ActivityTree_Excel_GetActiveSheetName", resourceCulture);
             }
         }
         
@@ -520,6 +547,33 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         }
         
         /// <summary>
+        ///   Output に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Excel_GASN_OutArgCategory1 {
+            get {
+                return ResourceManager.GetString("Excel_GASN_OutArgCategory1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Active Worksheet Name of Excel に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Excel_GASN_OutArgDesc1 {
+            get {
+                return ResourceManager.GetString("Excel_GASN_OutArgDesc1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Active Sheet Name に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Excel_GASN_OutArgName1 {
+            get {
+                return ResourceManager.GetString("Excel_GASN_OutArgName1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Setting に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Excel_RRS_InArgCategory1 {
@@ -597,6 +651,15 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         public static string Excel_RRS_InArgName3 {
             get {
                 return ResourceManager.GetString("Excel_RRS_InArgName3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Excel is not running. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Exception_Excel_Not_Started {
+            get {
+                return ResourceManager.GetString("Exception_Excel_Not_Started", resourceCulture);
             }
         }
         

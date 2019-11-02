@@ -55,6 +55,7 @@
     <Compile Include="DataTable\JointTable.cs" />
     <Compile Include="DataTable\ShiftRowsAndColumns.cs" />
     <Compile Include="DesignerMetadata.cs" />
+    <Compile Include="Excel\GetActiveSheetName.cs" />
     <Compile Include="Excel\ReadRecommendSetting.cs" />
     <Compile Include="File\WaitForFileGrowthCompleted.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

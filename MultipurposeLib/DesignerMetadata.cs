@@ -26,6 +26,7 @@ namespace RisaAtelier.MultipurposeLib
             DataTable.ShiftRowsAndColumns.SetMetaData(ref builder);
 
             Excel.ReadRecommendSetting.SetMetaData(ref builder);
+            Excel.GetActiveSheetName.SetMetaData(ref builder);
 
             File.WaitForFileGrowthCompleted.SetMetaData(ref builder);
 

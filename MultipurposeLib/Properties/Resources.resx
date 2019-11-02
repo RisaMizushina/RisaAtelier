@@ -126,6 +126,9 @@
   <data name="ActivityDesc_DataTable_SwapRowsAndColumns" xml:space="preserve">
     <value>Rebuild DataTable with swapping Rows And Columns</value>
   </data>
+  <data name="ActivityDesc_Excel_GetActiveSheetName" xml:space="preserve">
+    <value>Gets Excel Active Worksheet's Name</value>
+  </data>
   <data name="ActivityDesc_Excel_ReadReccomendSetting" xml:space="preserve">
     <value>Set / Disable "Recommend Read Only" Status to Excel file.</value>
   </data>
@@ -141,6 +144,9 @@
   <data name="ActivityName_DataTable_SwapRowsAndColumns" xml:space="preserve">
     <value>Swap Rows And Columns</value>
   </data>
+  <data name="ActivityName_Excel_GetActiveSheetName" xml:space="preserve">
+    <value>Get Active Sheet Name</value>
+  </data>
   <data name="ActivityName_Excel_ReadReccomendSetting" xml:space="preserve">
     <value>Read Recommend Setting</value>
   </data>
@@ -155,6 +161,9 @@
   </data>
   <data name="ActivityTree_DataTable_SwapRowsAndColumns" xml:space="preserve">
     <value>Risa Atelier.DataTable</value>
+  </data>
+  <data name="ActivityTree_Excel_GetActiveSheetName" xml:space="preserve">
+    <value>Risa Atelier.Excel</value>
   </data>
   <data name="ActivityTree_Excel_ReadRecommendSetting" xml:space="preserve">
     <value>Risa Atelier.Excel</value>
@@ -270,6 +279,15 @@
   <data name="DataTable_SRAC_OutArgName1" xml:space="preserve">
     <value>Output DataTable</value>
   </data>
+  <data name="Excel_GASN_OutArgCategory1" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="Excel_GASN_OutArgDesc1" xml:space="preserve">
+    <value>Active Worksheet Name of Excel</value>
+  </data>
+  <data name="Excel_GASN_OutArgName1" xml:space="preserve">
+    <value>Active Sheet Name</value>
+  </data>
   <data name="Excel_RRS_InArgCategory1" xml:space="preserve">
     <value>Setting</value>
   </data>
@@ -296,6 +314,9 @@
   </data>
   <data name="Excel_RRS_InArgName3" xml:space="preserve">
     <value>Excel File Password</value>
+  </data>
+  <data name="Exception_Excel_Not_Started" xml:space="preserve">
+    <value>Excel is not running.</value>
   </data>
   <data name="Exception_Records_Count_Invalid" xml:space="preserve">
     <value>Number of records are not same.</value>
