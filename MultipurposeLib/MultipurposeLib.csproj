@@ -72,6 +72,9 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="_ReleasedBinaries\RisaAtelier.MultipurposeLib.0.1.1.nupkg" />
+    <None Include="_ReleasedBinaries\RisaAtelier.MultipurposeLib.0.1.2.nupkg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
