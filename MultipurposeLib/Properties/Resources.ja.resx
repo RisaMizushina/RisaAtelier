@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ActivityDesc_Convert_SecureString_FromString" xml:space="preserve">
+    <value>String型の値を、SecureString型に変換します</value>
+  </data>
+  <data name="ActivityDesc_Convert_SecureString_ToString" xml:space="preserve">
+    <value>SecureString型の値を、String型に変換します</value>
+  </data>
   <data name="ActivityDesc_DataTable_CopyToClipboard" xml:space="preserve">
     <value>DataTable型変数の、中身を、CSV / TSV形式で、クリップボードにコピーします</value>
   </data>
@@ -134,6 +140,12 @@
   </data>
   <data name="ActivityDesc_File_WaitForFileGrowthCompleted" xml:space="preserve">
     <value>ファイルを監視し、サイズが変化しなくなるまで待機します</value>
+  </data>
+  <data name="ActivityName_Convert_SecureString_FromString" xml:space="preserve">
+    <value>StringからSecureStringに変換</value>
+  </data>
+  <data name="ActivityName_Convert_SecureString_ToString" xml:space="preserve">
+    <value>SecureStringからStringに変換</value>
   </data>
   <data name="ActivityName_DataTable_CopyToClipboard" xml:space="preserve">
     <value>クリップボードに中身をコピー</value>
@@ -153,6 +165,12 @@
   <data name="ActivityName_File_WaitForFileGrowthCompleted" xml:space="preserve">
     <value>ファイル書き込み終了まで待機</value>
   </data>
+  <data name="ActivityTree_Convert_SecureString_FromString" xml:space="preserve">
+    <value>Risa Atelier.型変換.SecureString</value>
+  </data>
+  <data name="ActivityTree_Convert_SecureString_ToString" xml:space="preserve">
+    <value>Risa Atelier.型変換.SecureString</value>
+  </data>
   <data name="ActivityTree_DataTable_CopyToClipboard" xml:space="preserve">
     <value>Risa Atelier.DataTable</value>
   </data>
@@ -170,6 +188,42 @@
   </data>
   <data name="ActivityTree_File_WaitForFileGrowthCompleted" xml:space="preserve">
     <value>Risa Atelier.File</value>
+  </data>
+  <data name="Convert_SecureString_FS_InArgCategory1" xml:space="preserve">
+    <value>入力</value>
+  </data>
+  <data name="Convert_SecureString_FS_InArgDesc1" xml:space="preserve">
+    <value>String型の値を、設定してください</value>
+  </data>
+  <data name="Convert_SecureString_FS_InArgName1" xml:space="preserve">
+    <value>入力 (String型)</value>
+  </data>
+  <data name="Convert_SecureString_FS_OutArgCategory1" xml:space="preserve">
+    <value>出力</value>
+  </data>
+  <data name="Convert_SecureString_FS_OutArgDesc1" xml:space="preserve">
+    <value>SecureString型に、変換された値です。</value>
+  </data>
+  <data name="Convert_SecureString_FS_OutArgName1" xml:space="preserve">
+    <value>変換結果 (SecureString型)</value>
+  </data>
+  <data name="Convert_SecureString_TS_InArgCategory1" xml:space="preserve">
+    <value>入力</value>
+  </data>
+  <data name="Convert_SecureString_TS_InArgDesc1" xml:space="preserve">
+    <value>SecureString型の値を、設定してください</value>
+  </data>
+  <data name="Convert_SecureString_TS_InArgName1" xml:space="preserve">
+    <value>入力 (SecureString型)</value>
+  </data>
+  <data name="Convert_SecureString_TS_OutArgCategory1" xml:space="preserve">
+    <value>出力</value>
+  </data>
+  <data name="Convert_SecureString_TS_OutArgDesc1" xml:space="preserve">
+    <value>String型に変換された値です。</value>
+  </data>
+  <data name="Convert_SecureString_TS_OutArgName1" xml:space="preserve">
+    <value>変換結果 (String型)</value>
   </data>
   <data name="DataTable_CTC_InArgCategory1" xml:space="preserve">
     <value>入力</value>

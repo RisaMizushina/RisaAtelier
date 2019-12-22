@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ActivityDesc_Convert_SecureString_FromString" xml:space="preserve">
+    <value>Convert From String To SecureString</value>
+  </data>
+  <data name="ActivityDesc_Convert_SecureString_ToString" xml:space="preserve">
+    <value>Convert From SecureString To String</value>
+  </data>
   <data name="ActivityDesc_DataTable_CopyToClipboard" xml:space="preserve">
     <value>Copies DataTable contents to Clipboard</value>
   </data>
@@ -134,6 +140,12 @@
   </data>
   <data name="ActivityDesc_File_WaitForFileGrowthCompleted" xml:space="preserve">
     <value>Waiting file writing complete, like downloading file.</value>
+  </data>
+  <data name="ActivityName_Convert_SecureString_FromString" xml:space="preserve">
+    <value>From String To SecureString</value>
+  </data>
+  <data name="ActivityName_Convert_SecureString_ToString" xml:space="preserve">
+    <value>From SecureString To String</value>
   </data>
   <data name="ActivityName_DataTable_CopyToClipboard" xml:space="preserve">
     <value>Copy To Clipboard</value>
@@ -153,6 +165,12 @@
   <data name="ActivityName_File_WaitForFileGrowthCompleted" xml:space="preserve">
     <value>Wait For Writing File Complete</value>
   </data>
+  <data name="ActivityTree_Convert_SecureString_FromString" xml:space="preserve">
+    <value>Risa Atelier.Convert.SecureString</value>
+  </data>
+  <data name="ActivityTree_Convert_SecureString_ToString" xml:space="preserve">
+    <value>Risa Atelier.Convert.SecureString</value>
+  </data>
   <data name="ActivityTree_DataTable_CopyToClipboard" xml:space="preserve">
     <value>Risa Atelier.DataTable</value>
   </data>
@@ -170,6 +188,42 @@
   </data>
   <data name="ActivityTree_File_WaitForFileGrowthCompleted" xml:space="preserve">
     <value>Risa Atelier.File</value>
+  </data>
+  <data name="Convert_SecureString_FS_InArgCategory1" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="Convert_SecureString_FS_InArgDesc1" xml:space="preserve">
+    <value>String Value</value>
+  </data>
+  <data name="Convert_SecureString_FS_InArgName1" xml:space="preserve">
+    <value>Input (String)</value>
+  </data>
+  <data name="Convert_SecureString_FS_OutArgCategory1" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="Convert_SecureString_FS_OutArgDesc1" xml:space="preserve">
+    <value>Convert Result</value>
+  </data>
+  <data name="Convert_SecureString_FS_OutArgName1" xml:space="preserve">
+    <value>Output (SecureString)</value>
+  </data>
+  <data name="Convert_SecureString_TS_InArgCategory1" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="Convert_SecureString_TS_InArgDesc1" xml:space="preserve">
+    <value>SecureString Value</value>
+  </data>
+  <data name="Convert_SecureString_TS_InArgName1" xml:space="preserve">
+    <value>Input (SecureString)</value>
+  </data>
+  <data name="Convert_SecureString_TS_OutArgCategory1" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="Convert_SecureString_TS_OutArgDesc1" xml:space="preserve">
+    <value>Convert Result</value>
+  </data>
+  <data name="Convert_SecureString_TS_OutArgName1" xml:space="preserve">
+    <value>Output (String)</value>
   </data>
   <data name="DataTable_CTC_InArgCategory1" xml:space="preserve">
     <value>Input</value>

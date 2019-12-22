@@ -30,6 +30,9 @@ namespace RisaAtelier.MultipurposeLib
 
             File.WaitForFileGrowthCompleted.SetMetaData(ref builder);
 
+            Convert.SecureString.ToString.SetMetaData(ref builder);
+            Convert.SecureString.FromString.SetMetaData(ref builder);
+
             MetadataStore.AddAttributeTable(builder.CreateTable());
         }
 

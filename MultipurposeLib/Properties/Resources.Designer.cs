@@ -61,6 +61,24 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         }
         
         /// <summary>
+        ///   Convert From String To SecureString に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityDesc_Convert_SecureString_FromString {
+            get {
+                return ResourceManager.GetString("ActivityDesc_Convert_SecureString_FromString", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Convert From SecureString To String に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityDesc_Convert_SecureString_ToString {
+            get {
+                return ResourceManager.GetString("ActivityDesc_Convert_SecureString_ToString", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Copies DataTable contents to Clipboard に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ActivityDesc_DataTable_CopyToClipboard {
@@ -111,6 +129,24 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         public static string ActivityDesc_File_WaitForFileGrowthCompleted {
             get {
                 return ResourceManager.GetString("ActivityDesc_File_WaitForFileGrowthCompleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   From String To SecureString に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityName_Convert_SecureString_FromString {
+            get {
+                return ResourceManager.GetString("ActivityName_Convert_SecureString_FromString", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   From SecureString To String に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityName_Convert_SecureString_ToString {
+            get {
+                return ResourceManager.GetString("ActivityName_Convert_SecureString_ToString", resourceCulture);
             }
         }
         
@@ -169,6 +205,24 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         }
         
         /// <summary>
+        ///   Risa Atelier.Convert.SecureString に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityTree_Convert_SecureString_FromString {
+            get {
+                return ResourceManager.GetString("ActivityTree_Convert_SecureString_FromString", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Risa Atelier.Convert.SecureString に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityTree_Convert_SecureString_ToString {
+            get {
+                return ResourceManager.GetString("ActivityTree_Convert_SecureString_ToString", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Risa Atelier.DataTable に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ActivityTree_DataTable_CopyToClipboard {
@@ -219,6 +273,114 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         public static string ActivityTree_File_WaitForFileGrowthCompleted {
             get {
                 return ResourceManager.GetString("ActivityTree_File_WaitForFileGrowthCompleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Input に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Convert_SecureString_FS_InArgCategory1 {
+            get {
+                return ResourceManager.GetString("Convert_SecureString_FS_InArgCategory1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   String Value に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Convert_SecureString_FS_InArgDesc1 {
+            get {
+                return ResourceManager.GetString("Convert_SecureString_FS_InArgDesc1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Input (String) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Convert_SecureString_FS_InArgName1 {
+            get {
+                return ResourceManager.GetString("Convert_SecureString_FS_InArgName1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Output に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Convert_SecureString_FS_OutArgCategory1 {
+            get {
+                return ResourceManager.GetString("Convert_SecureString_FS_OutArgCategory1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Convert Result に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Convert_SecureString_FS_OutArgDesc1 {
+            get {
+                return ResourceManager.GetString("Convert_SecureString_FS_OutArgDesc1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Output (SecureString) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Convert_SecureString_FS_OutArgName1 {
+            get {
+                return ResourceManager.GetString("Convert_SecureString_FS_OutArgName1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Input に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Convert_SecureString_TS_InArgCategory1 {
+            get {
+                return ResourceManager.GetString("Convert_SecureString_TS_InArgCategory1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   SecureString Value に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Convert_SecureString_TS_InArgDesc1 {
+            get {
+                return ResourceManager.GetString("Convert_SecureString_TS_InArgDesc1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Input (SecureString) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Convert_SecureString_TS_InArgName1 {
+            get {
+                return ResourceManager.GetString("Convert_SecureString_TS_InArgName1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Output に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Convert_SecureString_TS_OutArgCategory1 {
+            get {
+                return ResourceManager.GetString("Convert_SecureString_TS_OutArgCategory1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Convert Result に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Convert_SecureString_TS_OutArgDesc1 {
+            get {
+                return ResourceManager.GetString("Convert_SecureString_TS_OutArgDesc1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Output (String) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Convert_SecureString_TS_OutArgName1 {
+            get {
+                return ResourceManager.GetString("Convert_SecureString_TS_OutArgName1", resourceCulture);
             }
         }
         

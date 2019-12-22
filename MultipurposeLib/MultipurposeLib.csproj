@@ -51,6 +51,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="COMUtil.cs" />
+    <Compile Include="Convert\SecureString\FromString.cs" />
+    <Compile Include="Convert\SecureString\ToString.cs" />
     <Compile Include="DataTable\CopyToClipboard.cs" />
     <Compile Include="DataTable\JointTable.cs" />
     <Compile Include="DataTable\ShiftRowsAndColumns.cs" />
