@@ -61,6 +61,15 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         }
         
         /// <summary>
+        ///   Create New DataTable From Array of DataRow に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityDesc_Convert_DataTable_FromDataRowArray {
+            get {
+                return ResourceManager.GetString("ActivityDesc_Convert_DataTable_FromDataRowArray", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Convert From String To SecureString に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ActivityDesc_Convert_SecureString_FromString {
@@ -129,6 +138,15 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         public static string ActivityDesc_File_WaitForFileGrowthCompleted {
             get {
                 return ResourceManager.GetString("ActivityDesc_File_WaitForFileGrowthCompleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   From Array of DataRow に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityName_Convert_DataTable_FromDataRowArray {
+            get {
+                return ResourceManager.GetString("ActivityName_Convert_DataTable_FromDataRowArray", resourceCulture);
             }
         }
         
@@ -205,6 +223,15 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         }
         
         /// <summary>
+        ///   Risa Atelier.Convert.DataTable に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityTree_Convert_DataTable_FromDataRowArray {
+            get {
+                return ResourceManager.GetString("ActivityTree_Convert_DataTable_FromDataRowArray", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Risa Atelier.Convert.SecureString に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ActivityTree_Convert_SecureString_FromString {
@@ -273,6 +300,60 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         public static string ActivityTree_File_WaitForFileGrowthCompleted {
             get {
                 return ResourceManager.GetString("ActivityTree_File_WaitForFileGrowthCompleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Input に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Convert_DataTable_FDArr_InArgCategory1 {
+            get {
+                return ResourceManager.GetString("Convert_DataTable_FDArr_InArgCategory1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Array of DataRow に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Convert_DataTable_FDArr_InArgDesc1 {
+            get {
+                return ResourceManager.GetString("Convert_DataTable_FDArr_InArgDesc1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Array of DataRow に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Convert_DataTable_FDArr_InArgName1 {
+            get {
+                return ResourceManager.GetString("Convert_DataTable_FDArr_InArgName1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Output に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Convert_DataTable_FDArr_OutArgCategory1 {
+            get {
+                return ResourceManager.GetString("Convert_DataTable_FDArr_OutArgCategory1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   DataTable from Array of DataRow に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Convert_DataTable_FDArr_OutArgDesc1 {
+            get {
+                return ResourceManager.GetString("Convert_DataTable_FDArr_OutArgDesc1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Built DataTable に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Convert_DataTable_FDArr_OutArgName1 {
+            get {
+                return ResourceManager.GetString("Convert_DataTable_FDArr_OutArgName1", resourceCulture);
             }
         }
         

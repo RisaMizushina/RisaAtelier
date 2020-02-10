@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="COMUtil.cs" />
+    <Compile Include="Convert\DataTable\FromDataRowArray.cs" />
     <Compile Include="Convert\SecureString\FromString.cs" />
     <Compile Include="Convert\SecureString\ToString.cs" />
     <Compile Include="DataTable\CopyToClipboard.cs" />

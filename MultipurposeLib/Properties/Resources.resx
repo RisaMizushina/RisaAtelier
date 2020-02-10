@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ActivityDesc_Convert_DataTable_FromDataRowArray" xml:space="preserve">
+    <value>Create New DataTable From Array of DataRow</value>
+  </data>
   <data name="ActivityDesc_Convert_SecureString_FromString" xml:space="preserve">
     <value>Convert From String To SecureString</value>
   </data>
@@ -140,6 +143,9 @@
   </data>
   <data name="ActivityDesc_File_WaitForFileGrowthCompleted" xml:space="preserve">
     <value>Waiting file writing complete, like downloading file.</value>
+  </data>
+  <data name="ActivityName_Convert_DataTable_FromDataRowArray" xml:space="preserve">
+    <value>From Array of DataRow</value>
   </data>
   <data name="ActivityName_Convert_SecureString_FromString" xml:space="preserve">
     <value>From String To SecureString</value>
@@ -165,6 +171,9 @@
   <data name="ActivityName_File_WaitForFileGrowthCompleted" xml:space="preserve">
     <value>Wait For Writing File Complete</value>
   </data>
+  <data name="ActivityTree_Convert_DataTable_FromDataRowArray" xml:space="preserve">
+    <value>Risa Atelier.Convert.DataTable</value>
+  </data>
   <data name="ActivityTree_Convert_SecureString_FromString" xml:space="preserve">
     <value>Risa Atelier.Convert.SecureString</value>
   </data>
@@ -188,6 +197,24 @@
   </data>
   <data name="ActivityTree_File_WaitForFileGrowthCompleted" xml:space="preserve">
     <value>Risa Atelier.File</value>
+  </data>
+  <data name="Convert_DataTable_FDArr_InArgCategory1" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="Convert_DataTable_FDArr_InArgDesc1" xml:space="preserve">
+    <value>Array of DataRow</value>
+  </data>
+  <data name="Convert_DataTable_FDArr_InArgName1" xml:space="preserve">
+    <value>Array of DataRow</value>
+  </data>
+  <data name="Convert_DataTable_FDArr_OutArgCategory1" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="Convert_DataTable_FDArr_OutArgDesc1" xml:space="preserve">
+    <value>DataTable from Array of DataRow</value>
+  </data>
+  <data name="Convert_DataTable_FDArr_OutArgName1" xml:space="preserve">
+    <value>Built DataTable</value>
   </data>
   <data name="Convert_SecureString_FS_InArgCategory1" xml:space="preserve">
     <value>Input</value>

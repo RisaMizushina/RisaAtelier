@@ -33,6 +33,8 @@ namespace RisaAtelier.MultipurposeLib
             Convert.SecureString.ToString.SetMetaData(ref builder);
             Convert.SecureString.FromString.SetMetaData(ref builder);
 
+            Convert.DataTable.FromDataRowArray.SetMetaData(ref builder);
+
             MetadataStore.AddAttributeTable(builder.CreateTable());
         }
 

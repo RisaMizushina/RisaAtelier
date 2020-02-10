@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ActivityDesc_Convert_DataTable_FromDataRowArray" xml:space="preserve">
+    <value>DataRowの配列から、DataTableを生成します。</value>
+  </data>
   <data name="ActivityDesc_Convert_SecureString_FromString" xml:space="preserve">
     <value>String型の値を、SecureString型に変換します</value>
   </data>
@@ -140,6 +143,9 @@
   </data>
   <data name="ActivityDesc_File_WaitForFileGrowthCompleted" xml:space="preserve">
     <value>ファイルを監視し、サイズが変化しなくなるまで待機します</value>
+  </data>
+  <data name="ActivityName_Convert_DataTable_FromDataRowArray" xml:space="preserve">
+    <value>DataRow配列をDataTableに変換</value>
   </data>
   <data name="ActivityName_Convert_SecureString_FromString" xml:space="preserve">
     <value>StringからSecureStringに変換</value>
@@ -165,6 +171,9 @@
   <data name="ActivityName_File_WaitForFileGrowthCompleted" xml:space="preserve">
     <value>ファイル書き込み終了まで待機</value>
   </data>
+  <data name="ActivityTree_Convert_DataTable_FromDataRowArray" xml:space="preserve">
+    <value>Risa Atelier.型変換.DataTable</value>
+  </data>
   <data name="ActivityTree_Convert_SecureString_FromString" xml:space="preserve">
     <value>Risa Atelier.型変換.SecureString</value>
   </data>
@@ -188,6 +197,24 @@
   </data>
   <data name="ActivityTree_File_WaitForFileGrowthCompleted" xml:space="preserve">
     <value>Risa Atelier.File</value>
+  </data>
+  <data name="Convert_DataTable_FDArr_InArgCategory1" xml:space="preserve">
+    <value>入力</value>
+  </data>
+  <data name="Convert_DataTable_FDArr_InArgDesc1" xml:space="preserve">
+    <value>DataTable.Select等の、DataRowの、配列を、設定します。</value>
+  </data>
+  <data name="Convert_DataTable_FDArr_InArgName1" xml:space="preserve">
+    <value>DataRow配列</value>
+  </data>
+  <data name="Convert_DataTable_FDArr_OutArgCategory1" xml:space="preserve">
+    <value>出力</value>
+  </data>
+  <data name="Convert_DataTable_FDArr_OutArgDesc1" xml:space="preserve">
+    <value>DataRowの配列から、新規で、投射された、DataTableを、出力します。</value>
+  </data>
+  <data name="Convert_DataTable_FDArr_OutArgName1" xml:space="preserve">
+    <value>DataTable型変数</value>
   </data>
   <data name="Convert_SecureString_FS_InArgCategory1" xml:space="preserve">
     <value>入力</value>
