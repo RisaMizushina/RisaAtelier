@@ -135,6 +135,18 @@
   <data name="ActivityDesc_DataTable_SwapRowsAndColumns" xml:space="preserve">
     <value>Rebuild DataTable with swapping Rows And Columns</value>
   </data>
+  <data name="ActivityDesc_Env_ChromeVer" xml:space="preserve">
+    <value>Gets Chrome Installed Version for Environment Check.</value>
+  </data>
+  <data name="ActivityDesc_Env_EdgeVer" xml:space="preserve">
+    <value>Gets Edge Installed Version for Environment Check.</value>
+  </data>
+  <data name="ActivityDesc_Env_FirefoxVer" xml:space="preserve">
+    <value>Gets Firefox Installed Version for Environment Check.</value>
+  </data>
+  <data name="ActivityDesc_Env_IEVer" xml:space="preserve">
+    <value>Gets IE Installed Version for Environment Check.</value>
+  </data>
   <data name="ActivityDesc_Excel_GetActiveSheetName" xml:space="preserve">
     <value>Gets Excel Active Worksheet's Name</value>
   </data>
@@ -162,6 +174,18 @@
   <data name="ActivityName_DataTable_SwapRowsAndColumns" xml:space="preserve">
     <value>Swap Rows And Columns</value>
   </data>
+  <data name="ActivityName_Env_ChromeVer" xml:space="preserve">
+    <value>Get Chrome Version</value>
+  </data>
+  <data name="ActivityName_Env_EdgeVer" xml:space="preserve">
+    <value>Get Edge Version</value>
+  </data>
+  <data name="ActivityName_Env_FirefoxVer" xml:space="preserve">
+    <value>Get Firefox Version</value>
+  </data>
+  <data name="ActivityName_Env_IEVer" xml:space="preserve">
+    <value>Get Internet Explorer Version</value>
+  </data>
   <data name="ActivityName_Excel_GetActiveSheetName" xml:space="preserve">
     <value>Get Active Sheet Name</value>
   </data>
@@ -188,6 +212,18 @@
   </data>
   <data name="ActivityTree_DataTable_SwapRowsAndColumns" xml:space="preserve">
     <value>Risa Atelier.DataTable</value>
+  </data>
+  <data name="ActivityTree_Env_ChromeVer" xml:space="preserve">
+    <value>Risa Atelier.Environment.Browser Versions</value>
+  </data>
+  <data name="ActivityTree_Env_EdgeVer" xml:space="preserve">
+    <value>Risa Atelier.Environment.Browser Versions</value>
+  </data>
+  <data name="ActivityTree_Env_FirefoxVer" xml:space="preserve">
+    <value>Risa Atelier.Environment.Browser Versions</value>
+  </data>
+  <data name="ActivityTree_Env_IEVer" xml:space="preserve">
+    <value>Risa Atelier.Environment.Browser Versions</value>
   </data>
   <data name="ActivityTree_Excel_GetActiveSheetName" xml:space="preserve">
     <value>Risa Atelier.Excel</value>
@@ -360,6 +396,24 @@
   <data name="DataTable_SRAC_OutArgName1" xml:space="preserve">
     <value>Output DataTable</value>
   </data>
+  <data name="Environment_Env_GetBrowserVersion_OutArgCategory1" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="Environment_Env_GetBrowserVersion_OutArgDesc1" xml:space="preserve">
+    <value>Returns Browser Version as String</value>
+  </data>
+  <data name="Environment_Env_GetBrowserVersion_OutArgName1" xml:space="preserve">
+    <value>Browser Version String</value>
+  </data>
+  <data name="Environment_Env_GetFirefoxVersion_InArgCategory1" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="Environment_Env_GetFirefoxVersion_InArgDesc1" xml:space="preserve">
+    <value>Firefox Installed Path</value>
+  </data>
+  <data name="Environment_Env_GetFirefoxVersion_InArgName1" xml:space="preserve">
+    <value>Firefox Path</value>
+  </data>
   <data name="Excel_GASN_OutArgCategory1" xml:space="preserve">
     <value>Output</value>
   </data>
@@ -396,8 +450,17 @@
   <data name="Excel_RRS_InArgName3" xml:space="preserve">
     <value>Excel File Password</value>
   </data>
+  <data name="Exception_Chrome_Not_Found" xml:space="preserve">
+    <value>Couldn't find Chrome installed directory.</value>
+  </data>
+  <data name="Exception_Edge_Not_found" xml:space="preserve">
+    <value>Couldn't find Edge installed.</value>
+  </data>
   <data name="Exception_Excel_Not_Started" xml:space="preserve">
     <value>Excel is not running.</value>
+  </data>
+  <data name="Exception_Firefox_Not_Found" xml:space="preserve">
+    <value>Couldn't find Firefox installed directory.</value>
   </data>
   <data name="Exception_Records_Count_Invalid" xml:space="preserve">
     <value>Number of records are not same.</value>

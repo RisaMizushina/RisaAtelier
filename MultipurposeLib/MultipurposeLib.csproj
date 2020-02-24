@@ -30,6 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />
@@ -58,6 +59,10 @@
     <Compile Include="DataTable\JointTable.cs" />
     <Compile Include="DataTable\ShiftRowsAndColumns.cs" />
     <Compile Include="DesignerMetadata.cs" />
+    <Compile Include="EnvInfo\GetChromeVersion.cs" />
+    <Compile Include="EnvInfo\GetEdgeVersion.cs" />
+    <Compile Include="EnvInfo\GetFirefoxVersion.cs" />
+    <Compile Include="EnvInfo\GetIEVersion.cs" />
     <Compile Include="Excel\GetActiveSheetName.cs" />
     <Compile Include="Excel\ReadRecommendSetting.cs" />
     <Compile Include="File\WaitForFileGrowthCompleted.cs" />

@@ -35,6 +35,11 @@ namespace RisaAtelier.MultipurposeLib
 
             Convert.DataTable.FromDataRowArray.SetMetaData(ref builder);
 
+            EnvInfo.GetChromeVersion.SetMetaData(ref builder);
+            EnvInfo.GetEdgeVersion.SetMetaData(ref builder);
+            EnvInfo.GetFirefoxVersion.SetMetaData(ref builder);
+            EnvInfo.GetIEVersion.SetMetaData(ref builder);
+
             MetadataStore.AddAttributeTable(builder.CreateTable());
         }
 
@@ -53,7 +58,7 @@ namespace RisaAtelier.MultipurposeLib
 
             builder.AddCustomAttributes(t, nameOf, new DisplayNameAttribute(DisplayName));
             builder.AddCustomAttributes(t, nameOf, new CategoryAttribute(Category));
-            builder.AddCustomAttributes(t, nameOf, new DescriptionAttribute(Description.Replace(@"\n", Environment.NewLine)));
+            builder.AddCustomAttributes(t, nameOf, new DescriptionAttribute(Description.Replace(@"\n", System.Environment.NewLine)));
         }
 
         /// <summary>
@@ -68,7 +73,7 @@ namespace RisaAtelier.MultipurposeLib
         {
             builder.AddCustomAttributes(t, new DisplayNameAttribute(DisplayName));
             builder.AddCustomAttributes(t, new CategoryAttribute(Category));
-            builder.AddCustomAttributes(t, new DescriptionAttribute(Description.Replace(@"\n", Environment.NewLine)));
+            builder.AddCustomAttributes(t, new DescriptionAttribute(Description.Replace(@"\n", System.Environment.NewLine)));
         }
     }
 

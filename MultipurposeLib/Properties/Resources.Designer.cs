@@ -115,6 +115,42 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         }
         
         /// <summary>
+        ///   Gets Chrome Installed Version for Environment Check. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityDesc_Env_ChromeVer {
+            get {
+                return ResourceManager.GetString("ActivityDesc_Env_ChromeVer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Gets Edge Installed Version for Environment Check. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityDesc_Env_EdgeVer {
+            get {
+                return ResourceManager.GetString("ActivityDesc_Env_EdgeVer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Gets Firefox Installed Version for Environment Check. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityDesc_Env_FirefoxVer {
+            get {
+                return ResourceManager.GetString("ActivityDesc_Env_FirefoxVer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Gets IE Installed Version for Environment Check. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityDesc_Env_IEVer {
+            get {
+                return ResourceManager.GetString("ActivityDesc_Env_IEVer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Gets Excel Active Worksheet&apos;s Name に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ActivityDesc_Excel_GetActiveSheetName {
@@ -196,6 +232,42 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         }
         
         /// <summary>
+        ///   Get Chrome Version に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityName_Env_ChromeVer {
+            get {
+                return ResourceManager.GetString("ActivityName_Env_ChromeVer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Get Edge Version に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityName_Env_EdgeVer {
+            get {
+                return ResourceManager.GetString("ActivityName_Env_EdgeVer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Get Firefox Version に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityName_Env_FirefoxVer {
+            get {
+                return ResourceManager.GetString("ActivityName_Env_FirefoxVer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Get Internet Explorer Version に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityName_Env_IEVer {
+            get {
+                return ResourceManager.GetString("ActivityName_Env_IEVer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Get Active Sheet Name に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ActivityName_Excel_GetActiveSheetName {
@@ -273,6 +345,42 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         public static string ActivityTree_DataTable_SwapRowsAndColumns {
             get {
                 return ResourceManager.GetString("ActivityTree_DataTable_SwapRowsAndColumns", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Risa Atelier.Environment.Browser Versions に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityTree_Env_ChromeVer {
+            get {
+                return ResourceManager.GetString("ActivityTree_Env_ChromeVer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Risa Atelier.Environment.Browser Versions に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityTree_Env_EdgeVer {
+            get {
+                return ResourceManager.GetString("ActivityTree_Env_EdgeVer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Risa Atelier.Environment.Browser Versions に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityTree_Env_FirefoxVer {
+            get {
+                return ResourceManager.GetString("ActivityTree_Env_FirefoxVer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Risa Atelier.Environment.Browser Versions に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ActivityTree_Env_IEVer {
+            get {
+                return ResourceManager.GetString("ActivityTree_Env_IEVer", resourceCulture);
             }
         }
         
@@ -792,6 +900,60 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         /// <summary>
         ///   Output に類似しているローカライズされた文字列を検索します。
         /// </summary>
+        public static string Environment_Env_GetBrowserVersion_OutArgCategory1 {
+            get {
+                return ResourceManager.GetString("Environment_Env_GetBrowserVersion_OutArgCategory1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Returns Browser Version as String に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Environment_Env_GetBrowserVersion_OutArgDesc1 {
+            get {
+                return ResourceManager.GetString("Environment_Env_GetBrowserVersion_OutArgDesc1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Browser Version String に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Environment_Env_GetBrowserVersion_OutArgName1 {
+            get {
+                return ResourceManager.GetString("Environment_Env_GetBrowserVersion_OutArgName1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Option に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Environment_Env_GetFirefoxVersion_InArgCategory1 {
+            get {
+                return ResourceManager.GetString("Environment_Env_GetFirefoxVersion_InArgCategory1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Firefox Installed Path に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Environment_Env_GetFirefoxVersion_InArgDesc1 {
+            get {
+                return ResourceManager.GetString("Environment_Env_GetFirefoxVersion_InArgDesc1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Firefox Path に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Environment_Env_GetFirefoxVersion_InArgName1 {
+            get {
+                return ResourceManager.GetString("Environment_Env_GetFirefoxVersion_InArgName1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Output に類似しているローカライズされた文字列を検索します。
+        /// </summary>
         public static string Excel_GASN_OutArgCategory1 {
             get {
                 return ResourceManager.GetString("Excel_GASN_OutArgCategory1", resourceCulture);
@@ -898,11 +1060,38 @@ namespace RisaAtelier.MultipurposeLib.Properties {
         }
         
         /// <summary>
+        ///   Couldn&apos;t find Chrome installed directory. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Exception_Chrome_Not_Found {
+            get {
+                return ResourceManager.GetString("Exception_Chrome_Not_Found", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Couldn&apos;t find Edge installed. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Exception_Edge_Not_found {
+            get {
+                return ResourceManager.GetString("Exception_Edge_Not_found", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Excel is not running. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Exception_Excel_Not_Started {
             get {
                 return ResourceManager.GetString("Exception_Excel_Not_Started", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Couldn&apos;t find Firefox installed directory. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Exception_Firefox_Not_Found {
+            get {
+                return ResourceManager.GetString("Exception_Firefox_Not_Found", resourceCulture);
             }
         }
         
